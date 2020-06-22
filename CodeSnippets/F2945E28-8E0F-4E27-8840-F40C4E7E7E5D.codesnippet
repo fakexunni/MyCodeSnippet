@@ -3,22 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@log</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#Log#&gt;");
+	<string>#pragma mark - Network Request Delegate
+
+- (void)requestFinished:(BaseRequest *)request {
+
+}
+
+- (void)requestFailed:(BaseRequest *)request {
+
+}
+
+- (void)clearRequest {
+
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19E4D5B7-60D8-40EA-B178-0C0420E96116</string>
+	<string>F2945E28-8E0F-4E27-8840-F40C4E7E7E5D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSlog</string>
+	<string>Network Request Delegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSlog</string>
+	<string>Network Request Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@log</string>
+	<string>tq_timer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#Log#&gt;");
+	<string>// 创建
+self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
+                                                            target:self
+                                              selector:@selector(&lt;#timerMethod#&gt;)
+                                                          userInfo:nil
+                                                           repeats:YES];
+// 取消
+[self.&lt;#var#&gt; invalidate];
+
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19E4D5B7-60D8-40EA-B178-0C0420E96116</string>
+	<string>C2DF7BF7-EF10-4F82-A9D3-D0E9C0991E9E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSlog</string>
+	<string>tq_timer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSlog</string>
+	<string>tq_timer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
